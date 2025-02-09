@@ -1,0 +1,405 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Hero section */
+.hero {
+    background-color: #0ab20c;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Features section */
+.features {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features h3 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 23%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature h4 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Search bar styling */
+.job-search {
+    margin-bottom: 30px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    position: relative; /* Set positioning for the icon */
+}
+
+.search-container input[type="text"] {
+    padding: 10px 40px; /* Add padding for the icon */
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    position: absolute; /* Position the button absolutely */
+    left: 10px; /* Position the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent; /* Make the button transparent */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor for the icon */
+}
+
+.search-container button i {
+    font-size: 1rem; /* Adjust icon size */
+    color: #4CAF50; /* Icon color */
+}
+
+.search-container input[type="text"]:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+/* Job listing */
+.job-listings .job-listing {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.job-listings h2 {
+    color: #333;
+}
+
+.job-listings p {
+    color: #666;
+}
+
+/* About Us and Contact Us Sections */
+.about h2, .contact h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.about p, .contact p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.about ul, .contact ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.about ul li, .contact ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling for fixed-bottom */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    border-top: 3px solid #4CAF50;
+    width: 100%;
+    position: relative;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* General styles for Login and Register pages */
+.login, .register {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    margin-bottom: 100px; /* Ensure space for footer */
+}
+
+.login h2, .register h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login form, .register form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login form label, .register form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login form input[type="text"],
+.login form input[type="email"],
+.login form input[type="password"],
+.register form input[type="text"],
+.register form input[type="email"],
+.register form input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login form input[type="submit"],
+.register form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login form input[type="submit"]:hover,
+.register form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Center align links */
+.login p, .register p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login p a, .register p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login p a:hover, .register p a:hover {
+    text-decoration: underline;
+}
+
+/* Post Job Page Styles */
+.post-job {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.post-job h2 {
+    text-align: center;
+    color: #333;
+}
+
+.post-job form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-job form input[type="text"],
+.post-job form input[type="email"],
+.post-job form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-job form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-job form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Job Confirmation Message */
+.job-confirmation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.job-confirmation p {
+    font-size: 1.2rem;
+    color: #4CAF50;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .feature-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+    }
+
+    .search-container input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-container button {
+        left: 20px; /* Adjust button position for smaller screens */
+    }
+}
