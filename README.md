@@ -6,15 +6,17 @@ This project is a job seeker platform built by our team, designed to help users 
 
 The **Home** page serves as the introduction to the Job Seeker platform. It provides a brief overview of the site's features and helps users navigate through different sections like Login, Register, and Contact Us.
 
-![Home](home.png)
+![Home]
 
 ---
+![home](https://github.com/user-attachments/assets/44266572-f098-4638-af5e-7e688b8b761e)
 
 ## Login
 
 The **Login** page allows registered users to access their accounts by entering their username and password.
 
-![Login](login.png)
+![Login]
+![login](https://github.com/user-attachments/assets/164a49b3-3326-4ceb-837a-dfa38613ee12)
 
 ### Features:
 - Username and Password fields
@@ -27,7 +29,8 @@ The **Login** page allows registered users to access their accounts by entering 
 
 The **Register** page enables new users to create an account on the platform.
 
-![Register](register.png)
+![Register]
+![register](https://github.com/user-attachments/assets/78d973cc-0bb6-4075-9f06-cdbbe39108b8)
 
 ### Features:
 - Username, Password, and Confirm Password fields
@@ -40,7 +43,8 @@ The **Register** page enables new users to create an account on the platform.
 
 The **Contact Us** page allows users to get in touch with the support team for inquiries, issues, or feedback.
 
-![Contact Us](contact_us.png)
+![Contact Us]
+![contact_us](https://github.com/user-attachments/assets/6825a6b8-a083-4506-94fa-a11114d60789)
 
 ### Features:
 - Name, Email, and Message fields
@@ -53,7 +57,8 @@ The **Contact Us** page allows users to get in touch with the support team for i
 
 The **About Us** page provides information about the project, the team, and the goals behind creating this platform.
 
-![About Us](about_us.png)
+![About Us]
+![about_us](https://github.com/user-attachments/assets/afd45957-a26c-4095-8ab1-c134c8c24bca)
 
 
 
